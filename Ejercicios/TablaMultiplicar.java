@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TablaMutiplicar {
+public class TablaMultiplicar {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String respuesta;
