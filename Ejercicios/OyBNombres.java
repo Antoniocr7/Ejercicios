@@ -5,17 +5,18 @@ public class OyBNombres {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] nombres = new String[5];
-        
+
+        // Ingresar nombres
         for (int i = 0; i < 5; i++) {
             System.out.print("Ingrese el nombre " + (i+1) + ": ");
             nombres[i] = scanner.nextLine();
         }
 
-        
+        // Ordenar e imprimir
         Arrays.sort(nombres);
         System.out.println("Nombres ordenados: " + Arrays.toString(nombres));
 
-        
+        // Buscar nombre
         System.out.print("Ingrese un nombre a buscar: ");
         String buscar = scanner.nextLine();
         int indice = Arrays.binarySearch(nombres, buscar);
