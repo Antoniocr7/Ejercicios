@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class OyBNombresC {
+public class OyBNombresM {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         List<String> nombres = new ArrayList<>();
