@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class OrdenarBuscarNombresM_Fix {
+public class OyBNombresFix {
     private static Scanner scanner = new Scanner(System.in);
     private static ArrayList<String> nombres = new ArrayList<>();
 
@@ -21,7 +21,7 @@ public class OrdenarBuscarNombresM_Fix {
 
     private static void mostrarMenu() {
         while (true) {
-            System.out.println("\nOpciones:");
+            System.out.println("Opciones:");
             System.out.println("1. Ordenar y mostrar nombres");
             System.out.println("2. Buscar un nombre");
             System.out.println("3. Eliminar un nombre");
